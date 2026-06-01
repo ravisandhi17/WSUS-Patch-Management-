@@ -84,7 +84,7 @@ Specify intranet Microsoft update service location
 
 Configured:
 
-## http://DC1:8530
+
 
 ![IPCONFIG](screenshots/04-WSUS-GPO-Update-Server-Settings.png)
 
@@ -122,11 +122,6 @@ Get-ItemProperty "HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate\AU"
 
 ## Results:
 
-WUServer       = http://DC1:8530
-
-WUStatusServer = http://DC1:8530
-
-UseWUServer    = 1
 
 ![IPCONFIG](screenshots/06-1-WSUS-Registry-Configuration.png)
 
