@@ -158,39 +158,10 @@ Verified registry-based WSUS settings
 
 Tested Windows Update detection against WSUS configuration
 
-## Screenshots
-
-WSUS Administration Console
 
 
 
 
-Workstations Computer Group
-
-
-
-
-WSUS Client Settings GPO
-
-
-
-
-WSUS Update Server Configuration
-
-
-
-
-Group Policy Verification
-
-
-
-
-Registry Verification
-
-
-
-
-WSUS Service Status
 
 
 
