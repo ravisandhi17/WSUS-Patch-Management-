@@ -40,6 +40,9 @@ Dell PowerEdge R720
     ├── Domain Joined
     ├── Receives Group Policy
     └── Uses WSUS for Updates
+    
+![IPCONFIG](screenshots/architecture.png)
+
 
 ## Objectives
 
