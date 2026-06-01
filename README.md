@@ -28,18 +28,7 @@ Domain: ravikumar.local
 
 ## Lab Architecture
 
-Dell PowerEdge R720
-│
-├── DC1 (Windows Server 2022)
-│   ├── Active Directory Domain Services
-│   ├── DNS Server
-│   ├── WSUS Server
-│   └── WSUS Port: 8530
-│
-└── Windows 11 Client
-    ├── Domain Joined
-    ├── Receives Group Policy
-    └── Uses WSUS for Updates
+
     
 ![IPCONFIG](screenshots/architecture.png)
 
@@ -95,7 +84,7 @@ Specify intranet Microsoft update service location
 
 Configured:
 
-http://DC1:8530
+## http://DC1:8530
 
 ![IPCONFIG](screenshots/04-WSUS-GPO-Update-Server-Settings.png)
 
