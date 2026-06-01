@@ -72,11 +72,9 @@ Created and linked a Group Policy Object:
 
 Configure Intranet Microsoft Update Service Location
 
-Enabled:
+Enabled: Specify intranet Microsoft update service location
 
-Specify intranet Microsoft update service location
 
-Configured:
 
 
 
