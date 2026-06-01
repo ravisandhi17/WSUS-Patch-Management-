@@ -59,6 +59,12 @@ WSUS Configuration
 
 WSUS Installation
 
+![IPCONFIG](screenshots/07-WSUS-Service-Running.png)
+
+
+![IPCONFIG](screenshots/01-WSUS-Console-DC1.png)
+
+
 Installed WSUS services and management tools on Windows Server 2022.
 
 WSUS Content Directory: C:\WSUS
@@ -69,17 +75,15 @@ WSUS Port: 8530
 
 Computer Group Created: Workstations
 
+![IPCONFIG](screenshots/02-WSUS-Workstations-Group.png)
+
+
+
 ## Group Policy Configuration
 
 Created and linked a Group Policy Object:
 
-WSUS Client Settings
-Policy Location
-Computer Configuration
-└─ Policies
-   └─ Administrative Templates
-      └─ Windows Components
-         └─ Windows Update
+
 Configure Intranet Microsoft Update Service Location
 
 Enabled:
@@ -90,18 +94,20 @@ Configured:
 
 http://DC1:8530
 
-for both:
+![IPCONFIG](screenshots/04-WSUS-GPO-Update-Server-Settings.png)
 
-Update Detection Server
-Statistics Server
-Client Verification
+
+## Client Verification
+
 Group Policy Applied
+
+
 
 ## Verified using:
 
 gpresult /r
 
-Result:
+## Result:
 
 Applied Group Policy Objects
 
@@ -109,15 +115,20 @@ Applied Group Policy Objects
 
 - WSUS Client Settings
 
-Registry Verification
+![IPCONFIG](screenshots/03-GPMC-WSUS-Client-Settings-GPO.png)
 
-Verified WSUS settings using:
+
+![IPCONFIG](screenshots/05-GPResult-WSUS-GPO-Applied.png)
+
+## Registry Verification
+
+## Verified WSUS settings using:
 
 Get-ItemProperty "HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate"
 
 Get-ItemProperty "HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate\AU"
 
-Results:
+## Results:
 
 WUServer       = http://DC1:8530
 
@@ -125,7 +136,11 @@ WUStatusServer = http://DC1:8530
 
 UseWUServer    = 1
 
-Validation Performed
+![IPCONFIG](screenshots/06-1-WSUS-Registry-Configuration.png)
+
+![IPCONFIG](screenshots/06-2-WSUS-Registry-Configuration.png)
+
+## Validation Performed
 
 Verified WSUS installation completed successfully
 
@@ -143,7 +158,7 @@ Verified registry-based WSUS settings
 
 Tested Windows Update detection against WSUS configuration
 
-Screenshots
+## Screenshots
 
 WSUS Administration Console
 
