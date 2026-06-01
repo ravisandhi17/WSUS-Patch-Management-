@@ -8,21 +8,15 @@ The objective of this project was to simulate an enterprise patch management env
 
 ## Lab Environment
 
-Server
+Server - Dell PowerEdge R720
 
-Dell PowerEdge R720
-
-Windows Server 2022 Standard Evaluation
-
-Active Directory Domain Services (AD DS)
+Windows Server 2022 Standard Evaluation - Active Directory Domain Services (AD DS)
 
 DNS Server
 
 WSUS Server
 
-Client
-
-Windows 11 Domain-Joined VM
+Client - Windows 11 Domain-Joined VM
 
 Domain: ravikumar.local
 
