@@ -8,17 +8,17 @@ The objective of this project was to simulate an enterprise patch management env
 
 ## Lab Environment
 
-Server - Dell PowerEdge R720
+- Server - Dell PowerEdge R720
 
-Windows Server 2022 Standard Evaluation - Active Directory Domain Services (AD DS)
+- Windows Server 2022 Standard Evaluation - Active Directory Domain Services (AD DS)
 
-DNS Server
+- DNS Server
 
-WSUS Server
+- WSUS Server
 
-Client - Windows 11 Domain-Joined VM
+- Client - Windows 11 Domain-Joined VM
 
-Domain: ravikumar.local
+- Domain: ravikumar.local
 
 ## Lab Architecture
 
@@ -29,21 +29,21 @@ Domain: ravikumar.local
 
 ## Objectives
 
-Install and configure WSUS on Windows Server 2022
+- Install and configure WSUS on Windows Server 2022
 
-Create WSUS computer groups
+- Create WSUS computer groups
 
-Configure Group Policy for WSUS clients
+- Configure Group Policy for WSUS clients
 
-Redirect Windows Update traffic to an internal WSUS server
+- Redirect Windows Update traffic to an internal WSUS server
 
-Verify client-side WSUS configuration
+- Verify client-side WSUS configuration
 
-Simulate centralized patch management
+- Simulate centralized patch management
 
-WSUS Configuration
+- WSUS Configuration
 
-WSUS Installation
+- WSUS Installation
 
 ![IPCONFIG](screenshots/07-WSUS-Service-Running.png)
 
@@ -121,21 +121,21 @@ Get-ItemProperty "HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate\AU"
 
 ## Validation Performed
 
-Verified WSUS installation completed successfully
+- Verified WSUS installation completed successfully
 
-Confirmed WSUS service status
+- Confirmed WSUS service status
 
-Verified WSUS console accessibility
+- Verified WSUS console accessibility
 
-Created WSUS computer groups
+- Created WSUS computer groups
 
-Configured Group Policy for clients
+- Configured Group Policy for clients
 
-Verified GPO application on Windows 11 client
+- Verified GPO application on Windows 11 client
 
-Verified registry-based WSUS settings
+- Verified registry-based WSUS settings
 
-Tested Windows Update detection against WSUS configuration
+- Tested Windows Update detection against WSUS configuration
 
 
 
@@ -147,29 +147,30 @@ Tested Windows Update detection against WSUS configuration
 
 ## Skills Demonstrated
 
-Windows Server 2022
+- Windows Server 2022
 
-Windows Server Update Services (WSUS)
+- Windows Server Update Services (WSUS)
 
-Patch Management
+- Patch Management
 
-Group Policy Administration
+- Group Policy Administration
 
-Active Directory
+- Active Directory
 
-Windows Update Management
+- Windows Update Management
 
-Endpoint Administration
+- Endpoint Administration
 
-System Administration
+- System Administration
 
-Troubleshooting
+- Troubleshooting
 
-Enterprise IT Infrastructure
+- Enterprise IT Infrastructure
 
 ## Outcome
 
 Successfully deployed and configured a centralized WSUS patch management solution in an Active Directory environment. Domain-joined Windows clients were configured through Group Policy to use the internal WSUS server, demonstrating enterprise patch management and update administration practices.
+
 ## Author
 
 ## RAVI KUMAR
